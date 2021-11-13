@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- estilos -->
+    <style>
+    
+        /* Círculos de colores numerados */
+    
+        span.grey {
+        background: #cccccc;
+        border-radius: 0.8em;
+        border: solid black 0.5px;
+        -moz-border-radius: 0.8em;
+        -webkit-border-radius: 0.8em;
+        color: #cccccc;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1em;
+        margin-right: 10px;
+        text-align: center;
+        width: 1em; 
+        }
+    
+        span.green {
+        background: #5EA226;
+        border-radius: 0.8em;
+        border: solid black 0.5px;
+        -moz-border-radius: 0.8em;
+        -webkit-border-radius: 0.8em;
+        color: #5EA226;
+        display: inline-block;
+        line-height: 1em;
+        margin-right: 10px;
+        text-align: center;
+        width: 1em; 
+        }
+    
+        span.blue {
+        background: #5178D0;
+        border-radius: 0.8em;
+        border: solid black 0.5px;
+        -moz-border-radius: 0.8em;
+        -webkit-border-radius: 0.8em;
+        color: #5178D0;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1em;
+        margin-right: 10px;
+        text-align: center;
+        width: 1em; 
+        }
+    
+        span.pink {
+        background: #EF0BD8;
+        border-radius: 0.8em;
+        border: solid black 0.5px;
+        -moz-border-radius: 0.8em;
+        -webkit-border-radius: 0.8em;
+        color: #EF0BD8;
+        display: inline-block;
+        line-height: 1em;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: center;
+        width: 1em; 
+        }
+    
+        span.black {
+        background: #000000;
+        border-radius: 0.8em;
+        border: solid black 0.5px;
+        -moz-border-radius: 0.8em;
+        -webkit-border-radius: 0.8em;
+        color: #000000;
+        display: inline-block;
+        line-height: 1em;
+        margin-right: 10px;
+        text-align: center;
+        width: 1em; 
+        }
+
+        .table8 tr{ 
+            border: 3px solid black;
+        }
+
+        .table8 td{ 
+            border: 3px solid black;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+        <!-- bgcolor="#valor color en hexa" -->
+        <h1>Tarea</h1>
+        <h3>Tablas:</h3>
+        <hr>
+        <p>Primer Tabla:</p>
+    
+        <!-- Inicio a Primer Tabla -->
+        <table cellpadding="15px" border="1">
+            <caption>Titulo de la Tabla</caption>
+    
+            <tr>
+                <td rowspan="2"><b>Tabla Avanzada</b></td>
+                <td colspan="4"><b>Cabecera Multiples Columnas</b></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Primera Col. Cab.</b></td>
+                <td colspan="2"><b>Segunda Col. Cab.</b></td>
+            </tr>
+            <tr>
+                <td><b>Fila 1</b></td>
+                <td colspan="2">Fila 1 Columna 1</td>
+                <td colspan="2">Fila 1 Columna 2</td>
+            </tr>
+            <tr>
+                <td><b>Fila 2</b></td>
+                <td colspan="2">Fila 2 Columna 1</td>
+                <td colspan="2">Fila 2 Columna 2</td>
+            </tr>
+    
+                <tfoot>
+                    <td colspan="5">Pie de tabla</td>
+                </tfoot>
+        </table> <br> <br> <br>
+    
+    
+        <hr>
+        <p>Segunda Tabla:</p>    
+        <!-- Inicio de segunda tabla -->
+
+        <table border="1" cellpadding="10px" cellspacing="2">
+            <p><h2>Redes Sociales</h2></p>
+            <tr>
+                <th colspan="2" align="center">Nombre</th>
+                <th align="center">¿Tengo cuenta?</th>
+                <th align="center">Valoración</th>
+                <th align="center">Dirección</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Facebook</th>
+                <td rowspan="2">
+                    <img width="130" height="120" src="https://static.lasprovincias.es/www/multimedia/201707/26/media/cortadas/fa-kIN-U4042808631756D-624x385@Las%20Provincias.jpg" alt="Facebook logo">
+                </td>
+                <td rowspan="2" align="center">
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <img src="images/estrellasvaloracion3.png" alt="valoración de 3 estrellas">
+                </td>
+                <td rowspan="2">
+                    <a href="http://www.facebook.com" target="blank">http://www.facebook.com</a>
+                </td>
+            </tr>
+            <tr>                
+                <td align="center">3 / 5</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Flickr</th>
+                <td rowspan="2">
+                    <img width="130" height="120"  src="https://i.blogs.es/ccae84/flickr-logo/1366_2000.png" alt="Flickr logo">
+                </td>
+                <td rowspan="2" align="center">
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <img src="images/estrellasvaloracion2.png" alt="Valoración dos estellas">
+                </td>
+                <td rowspan="2">
+                    <a href="http://ww.flickr.com" target="blank">http://ww.flickr.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">2 / 5</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Vimeo</th>
+                <td rowspan="2">
+                    <img width="130" height="120" src="https://play-lh.googleusercontent.com/BuqCCHKVZMi7iuO_xhWFRVxTnaGv_57XR1R722Ozumx-Bq9LFBOWsEyGUdVX0-T6hx8" alt="Logo de Vimeo">
+                </td>
+                <td rowspan="2" align="center">
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <img src="img/estrellasvaloracion3.png" alt="Valoración de tres estrellas">
+                </td>
+                <td rowspan="2">
+                    <a href="http://www.vimeo.com" target="blank">http://www.vimeo.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">3 / 5</td>
+            </tr>
+            <tr>
+                <th rowspan="2">YouTube</th>
+                <td rowspan="2">
+                    <img width="130" height="120"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDAtDT66uCxcmGYbYukfojoMjKi2PUjs2wuzOf5GqRsCwxbZfUARO3B5OdVFplOfto5Q&usqp=CAU" alt="Logo de YouTube">
+                </td>
+                <td rowspan="2" align="center">
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <img src="img/estrellasvaloracion4.png" alt="Valoración de cuatro estrellas">
+                </td>
+                <td rowspan="2">
+                    <a href="http://www.youtube.com" target="blank">http://www.youtube.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">4 / 5</td>
+            </tr>
+        </table> <br><br><br><hr><br>
+
+
+        <!-- Inicio de tercer tabla -->
+        <p>Tercer Tabla: </p>
+        <table border="1" cellpadding="4" cellspacing="5">
+            <tr>
+                <th align="center" colspan="3" bgcolor="#686666" class="colordeletra">Climas de América del Sur</th>
+            </tr>
+            <tr>
+                <td>
+                    Parte de arriba<br>
+                    de América del<br>
+                    Sur. Países<br>como:
+                    <table align="center" border="1" class="subtabla1">
+                        <tr>
+                            <td>Venezuela</td>
+                        </tr>
+                        <tr>
+                            <td>Colombia</td>
+                        </tr>
+                        <tr>
+                            <td>Ecuador</td>
+                        </tr>
+                        <tr>
+                            <td>Perú</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    Parte de abajo de<br>
+                    América del Sur.<br>
+                    Países como:
+                    <table border="1" class="subtabla2">
+                        <tr>
+                            <td>Argentina</td>
+                        </tr>
+                        <tr>
+                            <td>Chile</td>
+                        </tr>
+                        <tr>
+                            <td>Uruguay</td>
+                        </tr>
+                        <tr>
+                            <td>Paraguay</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#176C57">Bosque tropical, clima de<br>
+                    sabana, clima marítimo con<br>
+                    inviernos secos.</td>
+                <td bgcolor="#176C57">Climas marítimis con<br>
+                    veranos secos, con<br>
+                    inviernos secos, climas<br>
+                    fríos, clima de estepa, clima<br>
+                    desértico.
+                </td>
+            </tr>
+        </table> <br><br><br><hr><br>
+    
+        
+    <!-- Inicio Cuarta tabla -->
+        <p>Cuarta Tabla:</p>
+
+        <table cellpadding="15px" border="1">
+            <p>
+                <h2>Comparativa de reproductores MP3</h2>
+                <caption>Tabla comparativa de las características técnicas de los reproductores MP3</caption>
+            </p>
+            <tr>
+                <td></td>
+                <th colspan="3" align="center">
+                    <img src="images/mpe_mini.jpeg" alt="MP3 Mini" width="75px"><br>MP3 Mini
+                </th>
+                <th colspan="2" align="center">
+                    <img src="images/mpe_mini.jpeg" alt="MP3 Grande" width="100px"><br>MP3 Grande
+                </th>
+            </tr>
+            <tr>
+                <th align="center">Capacidad de<br>almacenamiento</th>
+                <td align="center">4GB<br>
+                    (1.000</br>
+                    canciones)
+                </td>
+                <td align="center">8GB<br>
+                    (2.000<br>
+                    canciones)
+                </td>
+                <td align="center">16GB<br>
+                    (4.000<br>
+                    canciones)
+                </td>
+                <td align="center">30GB<br>
+                    (7.500<br>
+                    canciones)
+                </td>
+                <td align="center">80GB<br>
+                    (20.000<br>
+                    canciones)
+                </td>
+            </tr>
+   
+
+            <tr>
+                <th align="center">Colores</th>
+                <td align="center"><span class="grey">.</span>
+                </td>
+                <td align="center">
+                    <span class="black">.</span>
+                    <span class="green">.</span>
+                    <span class="blue">.</span><br>
+                    <span class="pink">.</span>
+                </td>
+                <td align="center">
+                    <span class="black">.</span>
+                </td>
+                <td colspan="2" align="center">
+                    <span class="grey">.</span>
+                    <span class="black">.</span>
+                </td>
+            </tr>
+            <tr>
+                <th align="center">Pantalla</th>
+                <td colspan="3" align="center">LCD de 3 cm (diagonal) con<br>retroiluminación</td>
+                <td colspan="2" align="center">LCD de 6cm (diagonal)<br>con retroalimentación</td>
+            </tr>
+            <tr>
+                <th rowspan="2" align="center">Tiempo de<br>carga</th>
+                <td rowspan="2" colspan="3" align="center">Unas 3 horas</td>
+                <td colspan="2" align="center">Unas 4 horas</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">Unas 2 horas para<br>alcanzar el 80% de la<br>capacidad</td>
+            </tr>
+        </table> <br><br><br><hr><br>
+
+    
+    <!-- Inicio de quinta tabla -->
+    <p>Quinta Tabla:</p>
+    <table cellpadding="10px" border="1">
+        <caption>A complex table</caption>
+        <tr>
+            <td colspan="3"><b>Invoice#123456789</b></td>
+            <td><b>14 January 2025</b></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Pay to:</b><br>
+                Acme Billing Co.<br>
+                123 Main St.<br>
+                Cityville, NA 12345<br>
+            </td>
+            <td colspan="2"><b>Customer:</b><br>
+                John Smith<br>
+                321 Willow Way<br>
+                Southeast Northwestershire, MA 54321<br>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Name / Description</b></td>
+            <td><b>Qty.</b></td>
+            <td><b>@</b></td>
+            <td><b>Cost</b></td>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>Staples (box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Subtotal</b></td>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Tax</b></td>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Grand Total</b></td>
+            <td>$118.80</td>
+        </tr>
+    </table><br><br><br><hr><br>
+
+
+
+
+    <!-- Inicio de sexta tabla -->
+    <p>Sexta Tabla:</p>
+        <table  border="1" cellpadding="2" cellspacing="0">
+            <tr>
+                <th colspan="7" align="center">
+                    The Error Rate on Different Forms
+                </th>
+            </tr>
+            <tr>
+                <td VALIGN="top" rowspan="2"><b>Form name</b></td>
+                <td align="center" VALIGN="top" rowspan="2">
+                    <b>A</b>
+                </td>
+                <td align="center" VALIGN="top" rowspan="2">
+                    <b>B</b>
+                </td>
+                <td align="left" VALIGN="top" rowspan="2">
+                    <b>Total fields<br>(X= A x B)</b>
+                </td>
+                <td align="left" VALIGN="top" rowspan="2">
+                    <b>Fields with<br>errors (Y)</b>
+                </td>
+                <td align="left" VALIGN="top" colspan="2">
+                    <b>Error rate* (Y/X) x 100 (%)</b>
+                </td>
+            </tr>
+            <tr>
+                <td><b>X/Y</b></td>
+                <td><b>%age</b></td>
+            </tr>
+            <tr>
+                <td><b>High Risk Errors</b></td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Breast pathology</td>
+                <td>48</td>
+                <td>733</td>
+                <td>35,184</td>
+                <td>188</td>
+                <td>0.0053</td>
+                <td>0.53</td>
+            </tr>
+            <tr>
+                <td>Clinical follow-up</td>
+                <td>15</td>
+                <td>1,115</td>
+                <td>16,725</td>
+                <td>2</td>
+                <td>0.0001</td>
+                <td>0.01</td>
+            </tr>
+            <tr>
+                <td>Patient consent</td>
+                <td>11</td>
+                <td>379</td>
+                <td>4,169</td>
+                <td>11</td>
+                <td>0.0026</td>
+                <td>0.26</td>
+            </tr>
+            <tr>
+                <td><b>Low Risk Errors</b></td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Demographics</td>
+                <td>20</td>
+                <td>348</td>
+                <td>6,960</td>
+                <td>9</td>
+                <td>0.0013</td>
+                <td>0.13</td>
+            </tr>
+            <tr>
+                <td align="left" VALIGN="top">Specimen<br>
+                accession</td>
+                <td VALIGN="top">28</td>
+                <td VALIGN="top">667</td>
+                <td VALIGN="top">18,676</td>
+                <td VALIGN="top">63</td>
+                <td VALIGN="top">0.0034</td>
+                <td VALIGN="top">0.34</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>122</td>
+                <td>3,242</td>
+                <td>81,714</td>
+                <td>273</td>
+                <td>0.0033</td>
+                <td>0.33</td>
+            </tr>
+        </table> <br><br><br><hr><br>
+
+        <!-- Inicio de septima tabla -->
+        <p>Septima Tabla:</p>
+        <table border="1" cellpadding="10px" style="border-collapse:collapse">
+            <tr>
+                <td colspan="2" rowspan="3"></td>
+                <td colspan="2"><br></td>
+                <td colspan="2" rowspan="2" bgcolor="#b5b2b2"><b>Subtotal</b></td>
+                <td colspan="2" rowspan="2" bgcolor="#b5b2b2"><b>Total</b></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Magicolor</b></td>
+            </tr>
+            <tr>
+                <th>PrevRevenue</th>
+                <th>Revenue</th>
+                <th>PrevRevenue</th>
+                <th>Revenue</th>
+                <th>PrevRevenue</th>
+                <th>Revenue</th>
+            </tr>
+            <tr>
+                <td rowspan="5">CENTRAL REGION</td>
+                <td>CHICAGO DISTRICT</td>
+                <td>5,587.00</td>
+                <td>3,741.00</td>
+                <td>5,587.00</td>
+                <td>3,741.00</td>
+                <td>5,587.00</td>
+                <td>3,741.00</td>
+            </tr>
+            <tr>
+                <td>CINCINNATI DISTRICT</td>
+                <td>9,875.00</td>
+                <td>38,054.00</td>
+                <td>9,875.00</td>
+                <td>38,054.00</td>
+                <td>9,875.00</td>
+                <td>38,054.00</td>
+            </tr>
+            <tr>
+                <td>DETROIT DISTRICT</td>
+                <td>5,706.00</td>
+                <td>2,149.00</td>
+                <td>5,706.00</td>
+                <td>2,149.00</td>
+                <td>5,706.00</td>
+                <td>2,149.00</td>
+            </tr>
+            <tr>
+                <td>KANSAS CITY DISTRICT</td>
+                <td>9,467.00</td>
+                <td>55,519.00</td>
+                <td>9,467.00</td>
+                <td>55,519.00</td>
+                <td>9,467.00</td>
+                <td>55,519.00</td>
+            </tr>
+            <tr>
+                <td>MINNEAPOLIS<br>DISTRICT</td>
+                <td>140.00</td>
+                <td>231.00</td>
+                <td>140.00</td>
+                <td>231.00</td>
+                <td>140.00</td>
+                <td>231.00</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#b5b2b2"><b>Subtotal</b></td>
+                <td>30,775.00</td>
+                <td>99,694.00</td>
+                <td>30,775.00</td>
+                <td>99,694.00</td>
+                <td>30,775.00</td>
+                <td>99,694.00</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#b5b2b2"><b>Total</b></td>
+                <td>30,775.00</td>
+                <td>99,694.00</td>
+                <td>30,775.00</td>
+                <td>99,694.00</td>
+                <td>30,775.00</td>
+                <td>99,694.00</td>
+            </tr>
+        </table><br><br><hr><br>
+
+        <!-- Inicio de Octava tabla -->
+        <p>Octava Tabla:</p>
+            <table class="table8" border="1" cellpadding="20px"  style="border-collapse: collapse; text-align: center; width: 100%;">
+                <div>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td rowspan="2">2</tdr>
+                    <td colspan="2">3</td>
+                    <td rowspan="3">4</td>
+                    <td colspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td colspan="2">10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td rowspan="3">13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td colspan="2">15</td>
+                    <td colspan="3">16</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td colspan="2">18</td>
+                    <td rowspan="2">19</td>
+                    <td colspan="2">20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td colspan="2">22</tdcol>
+                    <td colspan="3">23</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">24</td>
+                    <td rowspan="3" colspan="2">25</td>
+                    <td>26</td>
+                    <td colspan="3">27</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">28</td>
+                    <td rowspan="4" colspan="3">29</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td colspan="4">35</td>
+                    <td>36</td>
+                    <td rowspan="2">37</td>
+                </tr>
+                <tr>
+                    <td colspan="3">38</td>
+                    <td>39</td>
+                    <td rowspan="2">40</td>
+                    <td rowspan="2">41</td>
+                </tr>
+                <tr>
+                    <td rowspan="5" colspan="3">42</td>
+                    <td>43</td>
+                    <td>44</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>46</td>
+                    <td>47</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <td>49</td>
+                    <td>50</td>
+                    <td rowspan="2" colspan="2">51</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">52</td>
+                    <td rowspan="3">53</td>
+                </tr>
+                <tr>
+                    <td colspan="2">54</td>
+                </tr>
+                <tr>
+                    <td>55</td>
+                    <td colspan="2">56</td>
+                    <td colspan="2">57</td>
+                </tr>
+                <tr>
+                    <td>58</td>
+                    <td colspan="6">59</td>
+                </tr>
+                
+            </table>
+</body>
+</html>

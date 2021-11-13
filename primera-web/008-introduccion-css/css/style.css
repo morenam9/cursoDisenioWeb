@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* Clases e Id */
+/* Es importante destacar q el uso de los identificadores
+solo debe ser de uso unico en cada seccion de codigo  */

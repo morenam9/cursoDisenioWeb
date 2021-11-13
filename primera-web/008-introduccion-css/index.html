@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando con CSS</title>
+    <!-- Hojas de estilo enlazadas a traves de la etiqueta link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+    <!-- Formas de aolicar CSS en archivo html-->
+    <!-- Estilos en linea: aplicamos en la linea el elemento style con los elementos   css que queremos modificar.  -->
+    <!-- /* Forma de comentar en CSS*/ -->
+
+<body style="font-family:Verdana, Geneva, Tahoma, sans-serif ;">
+    
+    <!-- Codigo escalable: depende el tamanio de la pagina, va creciendo la informacion, lo recomendable seria no crear caos a medida q crece el codigo -->
+
+    <h1>Trabajando con CSS</h1>
+    <h2>Extructura de un elemento CSS- REGLA</h2>
+    <style>
+        /* identificador {
+            atributo: valor;
+        } */
+
+        p{
+            text-align: center;
+            line-height: 25px;
+            color: brown;
+            background-color: burlywood;
+        }
+    </style>
+
+
+    
+    <img src="./img/regla_css.png" alt="Regla CSS">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Enim, vel? Reprehenderit placeat qui accusamus facilis. Quos dignissimos necessitatibus numquam. Expedita illum veritatis non ea maiores voluptas voluptatibus. Assumenda, ex quidem.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Enim, vel? Reprehenderit placeat qui accusamus facilis. Quos dignissimos necessitatibus numquam. Expedita illum veritatis non ea maiores voluptas voluptatibus. Assumenda, ex quidem.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Enim, vel? Reprehenderit placeat qui accusamus facilis. Quos dignissimos necessitatibus numquam. Expedita illum veritatis non ea maiores voluptas voluptatibus. Assumenda, ex quidem.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Enim, vel? Reprehenderit placeat qui accusamus facilis. Quos dignissimos necessitatibus numquam. Expedita illum veritatis non ea maiores voluptas voluptatibus. Assumenda, ex quidem.
+    </p>
+
+    <!-- Reglas de Especificidad en CSS -->
+    <!-- Sirven para ver la gerarquia y el modo de aplicar los estilos. -->
+    <h2>Reglas de especificidad</h2>
+    <img src="./img/especificidad.png" alt="">
+</body>
+</html>
